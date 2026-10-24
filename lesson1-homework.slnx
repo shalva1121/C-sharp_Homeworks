@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="lesson1-homework/lesson1-homework.csproj" />
+  <Project Path="lesson2-homework/lesson2-homework.csproj" />
+  <Project Path="lesson3-homework/lesson3-homework.csproj" />
+  <Project Path="lesson4-homework/lesson4-homework.csproj" />
+  <Project Path="lesson5-homework/lesson5-homework.csproj" />
+  <Project Path="lesson6-homework/lesson6-homework.csproj" />
+</Solution>
