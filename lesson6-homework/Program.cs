@@ -15,9 +15,9 @@
             //Console.WriteLine(CalculateAverage(first, second, third));
             //Console.WriteLine("");
             //Console.WriteLine("students grade:");
-            //Console.WriteLine(GetLetterGrade([ first, second, third ]));
+            //Console.WriteLine(GetLetterGrade([first, second, third]));
             //Console.WriteLine("students pass:");
-            //Console.WriteLine(IsPassed([ first, second, third ]));
+            //Console.WriteLine(IsPassed([first, second, third]));
 
 
             //bool IsValidScore(int x)
@@ -48,12 +48,19 @@
             //Console.WriteLine(IsPrime(num));
             //Console.WriteLine(CountDigits(num));
             //Console.WriteLine(ReverseNumber(num));
+            //Console.WriteLine(IsPositive(num));
+
+            //bool IsPositive(int x)
+            //{
+            //    Console.Write("this number is positive:");
+            //    return x > 0;
+            //}
 
         }
 
 
 
-        static int CalculateAverage(int x, int y, int z)
+        static double CalculateAverage(int x, int y, int z)
         {
 
             int average = (x + y + z) / 3;
