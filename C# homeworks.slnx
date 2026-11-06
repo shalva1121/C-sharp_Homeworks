@@ -7,4 +7,5 @@
   <Project Path="lesson6-homework/lesson6-homework.csproj" />
   <Project Path="lesson7-homework/lesson7-homework.csproj" Id="2896d484-9923-42f2-acd0-28602a1131c6" />
   <Project Path="lesson8-homework/lesson8-homework.csproj" Id="f1cae574-0ef3-41da-97eb-cff516a3c6bb" />
+  <Project Path="lesson9-homework/lesson9-homework.csproj" Id="b22aa7c1-e743-4b47-94a1-9ccc901b3235" />
 </Solution>
