@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace lesson10_homework
+﻿namespace lesson10_homework
 {
     internal class Doctor
     {
-		private string _specialization;
+        private string _specialization;
 
-		public string Specialization
+        public string Specialization
         {
-			get { return _specialization; }
-			set {
+            get { return _specialization; }
+            set
+            {
                 if (string.IsNullOrWhiteSpace(value))
                 {
                     Console.WriteLine("ERROR");
@@ -21,8 +18,16 @@ namespace lesson10_homework
                     _specialization = value;
                 }
             }
-		}
+        }
 
+        public void PerformDuty()
+        {
+            Console.WriteLine($"{FullName}");
+        }
 
-	}
+        public decimal CalculateBonus(int patientCount)
+        {
+            return *patientCount;
+        }
+    }
 }

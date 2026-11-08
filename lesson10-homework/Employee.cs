@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace lesson10_homework
+﻿namespace lesson10_homework
 {
     internal class Employee
     {
-		private string _fullName;
+        private string _fullName;
 
-		public string FullName
-		{
-			get { return _fullName; }
-			set {
+        public string FullName
+        {
+            get { return _fullName; }
+            set
+            {
                 if (string.IsNullOrWhiteSpace(value))
                 {
                     Console.WriteLine("ERROR");
@@ -21,15 +18,16 @@ namespace lesson10_homework
                     _fullName = value;
                 }
             }
-		}
+        }
 
-		private decimal _salary;
+        private decimal _salary;
 
         public decimal Salary
         {
-			get { return _salary; }
-			set {
-                if (value<0)
+            get { return _salary; }
+            set
+            {
+                if (value < 0)
                 {
                     Console.WriteLine("ERROR");
                 }
@@ -38,12 +36,22 @@ namespace lesson10_homework
                     _salary = value;
                 }
             }
-		}
+        }
 
         public void ShowInfo()
         {
             Console.WriteLine($"მომუშავე პირი:{FullName}");
             Console.WriteLine($"შემოსავალი:{Salary}");
         }
-	}
+        public void PerformDuty()
+        {
+            Console.WriteLine($"{FullName} მშაობს");
+        }
+
+        public decimal CalculateBonus(decimal rate)
+        {
+
+            return Salary * rate;
+        }
+    }
 }

@@ -1,12 +1,16 @@
 <Solution>
-  <Project Path="lesson1-homework/lesson1-homework.csproj" />
-  <Project Path="lesson10-homework/lesson10-homework.csproj" Id="8239ab71-e8cd-430b-ae92-9958a28ddabc" />
-  <Project Path="lesson2-homework/lesson2-homework.csproj" />
-  <Project Path="lesson3-homework/lesson3-homework.csproj" />
-  <Project Path="lesson4-homework/lesson4-homework.csproj" />
-  <Project Path="lesson5-homework/lesson5-homework.csproj" />
-  <Project Path="lesson6-homework/lesson6-homework.csproj" />
-  <Project Path="lesson7-homework/lesson7-homework.csproj" Id="2896d484-9923-42f2-acd0-28602a1131c6" />
-  <Project Path="lesson8-homework/lesson8-homework.csproj" Id="f1cae574-0ef3-41da-97eb-cff516a3c6bb" />
-  <Project Path="lesson9-homework/lesson9-homework.csproj" Id="b22aa7c1-e743-4b47-94a1-9ccc901b3235" />
+  <Folder Name="/lessons hw 1-9/">
+    <Project Path="lesson1-homework/lesson1-homework.csproj" />
+    <Project Path="lesson2-homework/lesson2-homework.csproj" />
+    <Project Path="lesson3-homework/lesson3-homework.csproj" />
+    <Project Path="lesson4-homework/lesson4-homework.csproj" />
+    <Project Path="lesson5-homework/lesson5-homework.csproj" />
+    <Project Path="lesson6-homework/lesson6-homework.csproj" />
+    <Project Path="lesson7-homework/lesson7-homework.csproj" Id="2896d484-9923-42f2-acd0-28602a1131c6" />
+    <Project Path="lesson8-homework/lesson8-homework.csproj" Id="f1cae574-0ef3-41da-97eb-cff516a3c6bb" />
+    <Project Path="lesson9-homework/lesson9-homework.csproj" Id="b22aa7c1-e743-4b47-94a1-9ccc901b3235" />
+  </Folder>
+  <Folder Name="/lessons hw 10-19/">
+    <Project Path="../../C-sharp_Homeworks/lesson10-homework/lesson10-homework.csproj" Id="0c030536-5a06-47b0-b295-9cda0b6aee01" />
+  </Folder>
 </Solution>
