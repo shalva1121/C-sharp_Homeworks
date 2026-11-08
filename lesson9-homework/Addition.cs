@@ -18,6 +18,6 @@ namespace lesson9_homework
                 }
             }
 		}
-        public string ExpDate { get; set; }
+        public DateTime ExpDate { get; set; }
     }
 }

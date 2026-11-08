@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="lesson1-homework/lesson1-homework.csproj" />
+  <Project Path="lesson10-homework/lesson10-homework.csproj" Id="8239ab71-e8cd-430b-ae92-9958a28ddabc" />
   <Project Path="lesson2-homework/lesson2-homework.csproj" />
   <Project Path="lesson3-homework/lesson3-homework.csproj" />
   <Project Path="lesson4-homework/lesson4-homework.csproj" />
