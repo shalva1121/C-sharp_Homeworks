@@ -13,5 +13,6 @@
   <Folder Name="/lessons hw 10-19/">
     <Project Path="lesson10-homework/lesson10-homework.csproj" Id="d2467246-cf40-4613-990e-154b3186d671" />
     <Project Path="lesson11-homework/lesson11-homework.csproj" Id="32fba1bb-6726-4a8e-868a-5fb536157449" />
+    <Project Path="lesson12-homework/lesson12-homework.csproj" Id="bee7668a-a92c-466d-8707-f15e0ca61dff" />
   </Folder>
 </Solution>
