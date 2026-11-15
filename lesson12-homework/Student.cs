@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace lesson12_homework
+﻿namespace lesson12_homework
 {
-    internal class Student  
+    internal class Student : IComparable<Student>
     {
         public Student(string name, string lastName, int age, double score)
         {
@@ -19,9 +15,11 @@ namespace lesson12_homework
         public int Age { get; set; }
         public double Score { get; set; }
 
+        public int CompareTo(Student? other)
+        {
+            return this.Score.CompareTo(other.Score);
+        }
 
-
- 
         public override bool Equals(object? obj)
         {
             return obj is Student student

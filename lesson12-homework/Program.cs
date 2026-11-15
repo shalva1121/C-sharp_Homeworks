@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace lesson12_homework
+﻿namespace lesson12_homework
 {
     internal class Program
     {
@@ -17,10 +15,11 @@ namespace lesson12_homework
             //   new Student("Emily", "Davis", 21, 88.7),
             //   new Student("David", "Wilson", 23, 95.1),
             // };
-            //Array.Sort(students, (x, y) => x.Score.CompareTo(y.Score));
+            //Array.Sort(students);
 
 
-            //for (int i = 0; i < students.Length; i++)
+
+            //for (int i = 0; i < students.Length; i++)--
             //{
             //    for (int j = i + 1; j < students.Length; j++)
             //    {
@@ -44,7 +43,7 @@ namespace lesson12_homework
             //   new Movie("movie4",  2021),
             //   new Movie("movie5", 2018),
             // };
-            //Array.Sort(movies, (x, y) => x.Year.CompareTo(y.Year));
+            //Array.Sort(movies);
 
 
 

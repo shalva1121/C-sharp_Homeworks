@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace lesson12_homework
+﻿namespace lesson12_homework
 {
-    internal class Movie
+    internal class Movie : IComparable<Movie>
     {
         public Movie(string title, int year)
         {
@@ -14,6 +10,11 @@ namespace lesson12_homework
 
         public string Title { get; set; }
         public int Year { get; set; }
+
+        public int CompareTo(Movie? other)
+        {
+            return this.Year.CompareTo(other.Year);
+        }
 
         public override bool Equals(object? obj)
         {
