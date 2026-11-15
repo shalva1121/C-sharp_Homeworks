@@ -11,6 +11,7 @@
     <Project Path="lesson9-homework/lesson9-homework.csproj" Id="b22aa7c1-e743-4b47-94a1-9ccc901b3235" />
   </Folder>
   <Folder Name="/lessons hw 10-19/">
-    <Project Path="../../C-sharp_Homeworks/lesson10-homework/lesson10-homework.csproj" Id="0c030536-5a06-47b0-b295-9cda0b6aee01" />
+    <Project Path="lesson10-homework/lesson10-homework.csproj" Id="d2467246-cf40-4613-990e-154b3186d671" />
+    <Project Path="lesson11-homework/lesson11-homework.csproj" Id="32fba1bb-6726-4a8e-868a-5fb536157449" />
   </Folder>
 </Solution>
