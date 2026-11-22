@@ -9,14 +9,15 @@ namespace lesson14_homework
 
         public static T Where<T>(this T[] arr, Predicate<T> pred)
         {
-
+            T[] newArr = [];
             foreach (var item in arr)
             {
                 if (pred(item))
                 {
-                    Console.WriteLine(item);
+                    Array.Resize(ref newArr, newArr.Length + 1);
                 }
             }
+           
             return default;
         }
 
